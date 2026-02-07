@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Danmu</title>
+  <style>
+    html, body { margin:0; padding:0; overflow:hidden; background:#000; color:#fff; }
+    #count {
+      position: fixed; left: 12px; top: 12px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      font-size: 14px; opacity: 0.85;
+      z-index: 10;
+    }
+    #msg {
+      position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%);
+      width: min(560px, calc(100vw - 32px));
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: none; outline: none;
+      background: rgba(255,255,255,0.08);
+      color: #fff; font-size: 16px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="count">Online: 1</div>
+  <input id="msg" maxlength="30" placeholder="Type a message and press Enter" />
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
