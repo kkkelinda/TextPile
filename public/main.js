@@ -1,10 +1,5 @@
 const socket = io();
-
-
-
 let onlineCount = 1;
-
-// 给 sketch.js 用
 function setOnlineCount(n) {
   onlineCount = Math.max(1, n);
   if (window.setPlayers) window.setPlayers(onlineCount);
