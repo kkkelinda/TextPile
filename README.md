@@ -10,15 +10,15 @@ As more users participate, the density of text increases and readability gradual
 
 The project explores how digital communication spaces shape attention and visibility, revealing how individual expression can quickly dissolve within collective information noise.
 
-##How to Run / Install
-###Online Experience
+## How to Run / Install
+### Online Experience
 
 1.Visit the live project website: https://textpile.onrender.com
 
 Open the link in multiple browser windows or on different devices to observe the real-time shared interaction.
 Each user’s message will immediately appear in the shared canvas and interact visually with other messages through overlap and spatial competition.
 
-###Local Run
+### Local Run
 If you want to run the project locally, follow these steps:
 
 1.Download and unzip the project files.
@@ -33,15 +33,15 @@ If you want to run the project locally, follow these steps:
 
 6.Open the following address in your browser: http://localhost:3000
 
-##Requirements
-###Hardware
+## Requirements
+### Hardware
 
 Computer or mobile device
 Internet connection
 
 (For exhibition purposes, the shared canvas can be projected onto a large screen or wall.)
 
-###Software
+### Software
 
 Node.js
 Modern web browser (Chrome recommended)
@@ -50,6 +50,6 @@ For local development:
 
 Visual Studio Code
 
-##Credits / Acknowledgements
+## Credits / Acknowledgements
 
 Leda Qi
